@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("./17565188.jpg");
+    background-color: white;
+    background-size: cover;
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: white;
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin-left: 250x;
+    margin-top: 140px;
+}
+
+#board div {
+     width: 180px; 
+    height: 180px;
+    background-image: url("./pipe.png");
+    background-size: cover;
+}
+
+#board div img {
+     width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#score{
+    position: absolute;
+    color: rgb(17, 16, 17);
+    top: 200px;
+    right: 200px;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.h1{
+    background-color: white;
+    border-radius: 100px;
+    color: black;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+.rest{
+    position: absolute;
+    color: rgb(17, 16, 17);
+    top: 300px;
+    right: 200px;
+    font-size: 30px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+
+   
+}
+
+.rest:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.8);
+    transition: 0.7s;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding-left: 40PX;
+    padding-right: 40px;
+     
+
+
+}
+ 
+
